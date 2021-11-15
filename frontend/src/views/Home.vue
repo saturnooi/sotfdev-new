@@ -14,58 +14,88 @@
       </div>
     </div>
 
-    <div>Category</div>
+    <div class="mt-7 mb-5 ml-2 font-bold text-4xl">Category</div>
     <div class="container container  m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
   
   <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://pbs.twimg.com/media/DrM0nIdU0AEhG5b.jpg">
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card1.jpg">
       <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Can life make you a bitter developer?</div>
-        <p class="text-grey-darker text-base">Read more</p>
+        <div class="text-black font-bold text-4xl ml-3 leading-tight">Cleanings</div>
+        <p class="ml-3">Ability to commit to maintaining high standards of personal hygiene</p>
+        <p class="ml-3 text-blue-600 text-base">View now</p>
       </div>
     </div>
   </div>
+  
   
   
   <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
-      <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Can coffee make you a bitter developer?</div>
-        <p class="text-grey-darker text-base">Read more</p>
-      </div>
-    </div>
-  </div>
-  
-  
-    <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://pbs.twimg.com/media/DrM0nIdU0AEhG5b.jpg">
-      <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Can coffee make you a bitter developer?</div>
-        <p class="text-grey-darker text-base">Read more</p>
-      </div>
-    </div>
-  </div>
-  
-  
-    <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
-      <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Can coffee make you a bitter developer?</div>
-        <p class="text-grey-darker text-base">Read more</p>
-      </div>
-    </div>
-  </div>
-  
-      <div class="w-full  p-3">
-    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://images.pexels.com/photos/1302883/pexels-photo-1302883.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card2.jpg">
       <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Can green tea make you a bitter developer?</div>
-        <p class="text-grey-darker text-base">Read more</p>
+        <div class="text-black font-bold text-4xl leading-tight">Consultants</div>
+        <p>Consultants aim to improve an organisation's position or profile by helping to solve problems, manage change and improve efficiency.</p>
+        <p class="text-blue-600  text-base">View now</p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="w-full lg:w-1/2 p-3">
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card3.jpg">
+      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-4xl leading-tight">Handymen</div>
+        <p>We are looking for a reliable Handyman to undertake upkeep and repair tasks at the interior or exterior of company premises. We’ll rely on you to keep our facilities in perfect condition by doing various odd jobs.</p>
+      <p class="text-blue-600  text-base">View now</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full lg:w-1/2 p-3">
+    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card4.jpg">
+      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-4xl leading-tight">Mountings</div>
+        <p>Responsible for maintaining of all fixtures and mounting devices used in weapon testing.</p>
+        <p class="text-blue-600  text-base">View now</p>
+      </div>
+    </div>
+  </div>
+  <div class="w-full lg:w-1/2 p-3">
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card6.jpg">
+      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-4xl leading-tight">Personal Assistants </div>
+        <p>A personal assistant, also referred to as personal aide (PA) or personal secretary (PS), is a job title describing a person who assists a specific person with their daily business or personal tasks.</p>
+        <p class="text-blue-600  text-base">View now</p>
+      </div>
+    </div>
+  </div>
+  <div class="w-full lg:w-1/2 p-3">
+    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card5.jpg">
+      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-4xl leading-tight">Moving Services</div>
+        <p>Check out our Employment Section for jobs in moving & storage industry. You'll find jobs for movers and moving company jobs.</p>
+        <p class="text-blue-600  text-base">View now</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+ 
+  
+    <div class="w-full p-3">
+    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-24" src="../assets/img/home/card7.jpg">
+      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-4xl leading-tight">Visual Audios</div>
+        <p>Coordinate with editorial teams on video, audio, and visual projects. Create, develop and produce innovative digital video programs and marketing content.</p>
+        <p class="text-blue-600 text-base">View now</p>
       </div>
     </div>
   </div>
