@@ -14,6 +14,7 @@
       </div>
     </div>
 
+<<<<<<< Updated upstream
     <div class="mt-7 mb-5 ml-2 font-bold text-4xl">Category</div>
     <div class="container container  m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
   
@@ -24,6 +25,34 @@
         <div class="text-black font-bold text-4xl ml-3 leading-tight">Cleanings</div>
         <p class="ml-3">Ability to commit to maintaining high standards of personal hygiene</p>
         <p class="ml-3 text-blue-600 text-base">View now</p>
+=======
+    <div class="Categories">
+      <h2 class="cateHead">Categories</h2>
+      <div class="picRow">
+        <div class="cardPics">          
+          <img class="pic1" src="https://www.monicare.com/files/upload/pages-image-14889.png"/>
+          <h5 class="namePic">Personal Assistant</h5>
+        </div>
+        <div class="cardPics">
+          <img class="pic2" src="https://cdn.fantasticcleaners.com/wp-content/uploads/2021/02/Domestic-1.jpg"/>
+          <h5 class="namePic">Cleaning</h5>
+        </div>
+        <div class="cardPics">
+          <img class="pic3" src="https://www.homemoverspro.com/wp-content/uploads/2021/03/moving-people.jpg"/>
+          <h5 class="namePic">Transport Service</h5>
+        </div>
+      </div>
+    </div>
+    <h1 class="Toptasker">Top Tasker</h1>
+    <div class="container container  m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
+  
+  <div class="w-full lg:w-1/2 p-3">
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="http://s2.thousandreason.com/thimgs/202006/30/3/15935016969718.jpg">
+      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight">Wanna make your life easier?</div>
+        <p class="text-grey-darker text-base">Read more</p>
+>>>>>>> Stashed changes
       </div>
     </div>
   </div>
@@ -31,17 +60,26 @@
   
   
   <div class="w-full lg:w-1/2 p-3">
+<<<<<<< Updated upstream
     <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
       <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card2.jpg">
       <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
         <div class="text-black font-bold text-4xl leading-tight">Consultants</div>
         <p>Consultants aim to improve an organisation's position or profile by helping to solve problems, manage change and improve efficiency.</p>
         <p class="text-blue-600  text-base">View now</p>
+=======
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-48 flex-none bg-cover" src="https://www.nestle.co.th/sites/g/files/pydnoa486/files/styles/full_width_image_1920x795_/public/search_jobs.jpg?itok=p3kZ20HB">
+      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight">Find your job here.</div>
+        <p class="text-grey-darker text-base">Read more</p>
+>>>>>>> Stashed changes
       </div>
     </div>
   </div>
   
     <div class="w-full lg:w-1/2 p-3">
+<<<<<<< Updated upstream
     <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
       <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card3.jpg">
       <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
@@ -59,6 +97,24 @@
         <div class="text-black font-bold text-4xl leading-tight">Mountings</div>
         <p>Responsible for maintaining of all fixtures and mounting devices used in weapon testing.</p>
         <p class="text-blue-600  text-base">View now</p>
+=======
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/256/job4_f.jpg">
+      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight">External task.</div>
+        <p class="text-grey-darker text-base">Read more</p>
+      </div>
+    </div>
+  </div>
+  
+  
+    <div class="w-full lg:w-1/2 p-3">
+    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
+      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://quicksilvertranslate.com/wp-content/uploads/blog-image-cost-objective-1024x684-1.jpg">
+      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+        <div class="text-black font-bold text-xl mb-2 leading-tight">Make your objective complete.</div>
+        <p class="text-grey-darker text-base">Read more</p>
+>>>>>>> Stashed changes
       </div>
     </div>
   </div>
@@ -89,6 +145,7 @@
   
  
   
+<<<<<<< Updated upstream
     <div class="w-full p-3">
     <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
       <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-24" src="../assets/img/home/card7.jpg">
@@ -99,6 +156,8 @@
       </div>
     </div>
   </div>
+=======
+>>>>>>> Stashed changes
   
 
   
@@ -284,5 +343,60 @@ export default {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0);
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.Toptasker {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.Categories {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.picRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.namePic {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 35px;
+}
+
+.pic1 {
+  width: 400px;
+  height: 200px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 255/ 0.2);
+}
+
+.pic2 {
+  width: 400px;
+  height: 200px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 255/ 0.2);
+}
+
+.pic3 {
+  width: 400px;
+  height: 200px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 255/ 0.2);
 }
 </style>
