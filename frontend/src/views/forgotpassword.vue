@@ -21,7 +21,7 @@
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, ex ratione. Aliquid!
                     </p>
-                    <button v-on:click = "Register_mode()" class ="btn transparent" id="sign-up-btn" >
+                    <button class ="btn transparent" id="sign-up-btn" >
                 Sign in
             </button>
                 </div>

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import LoginAndRegister from '../views/LoginAndRegister.vue'
-//import Chat from '../components/Chat.vue'
+import Chat from '../views/Chat.vue'
 import Forgotpassword from '../views/forgotpassword.vue'
 const routes = [{
         path: '/Home',
@@ -25,7 +25,7 @@ const routes = [{
     {
         path: '/Chat',
         name: 'Chat',
-        //component: Chat
+        component: Chat
     },
     {
         path: '/forgotpassword',
