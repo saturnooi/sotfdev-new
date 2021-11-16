@@ -316,44 +316,78 @@
         </div>
       </div>
     </div>
-<div class="mt-7 mb-5 ml-2 font-bold text-4xl">Top Taskers</div>
-  <div class="container container
+    <div class="mt-7 mb-5 ml-2 font-bold text-4xl">Top Taskers</div>
+    <div
+      class="
+        container container
         m-auto
         flex flex-wrap flex-col
         md:flex-row
         items-center
-        justify-start">
-<div v-for="item in Top" :key="item._id" class="w-full lg:w-1/2 p-3 ">
-      <div class="flex flex-col bg-blue-lightest">
-        <div id="app" class="bg-white w-128 h-60 rounded shadow-md flex card text-grey-darkest">
-            <img class="w-1/2 h-full object-cover rounded-l-sm" src="../assets/img/Usernull.png" alt="Room Image">
+        justify-start
+      "
+    >
+      <div v-for="item in Top" :key="item._id" class="w-full lg:w-1/2 p-3">
+        <div class="flex flex-col bg-blue-lightest">
+          <div
+            id="app"
+            class="
+              bg-white
+              w-128
+              h-60
+              rounded
+              shadow-md
+              flex
+              card
+              text-grey-darkest
+            "
+          >
+            <img
+              class="w-1/2 h-full object-cover rounded-l-sm"
+              src="../assets/img/Usernull.png"
+              alt="Room Image"
+            />
             <div class="w-full flex flex-col">
-                <div class="p-4 pb-0 flex-1">
-                    <h3 class="font-light mb-1 text-grey-darkest">{{item.user}}</h3>
-                    <div class="text-xs flex items-center mb-4">
-                        <i class="fas fa-map-marker-alt mr-1 text-grey-dark"></i>
-                        {{item.locations}}
-                    </div>
-                    <span class="text-5xl text-grey-darkest">{{item.price}}<span class="text-lg">/B.</span></span>
-                    <div class="flex items-center mt-4 ">
-                        <p>{{item.description}}</p>
-                    </div>
+              <div class="p-4 pb-0 flex-1">
+                <h3 class="font-light mb-1 text-grey-darkest">
+                  {{ item.user }}
+                </h3>
+                <div class="text-xs flex items-center mb-4">
+                  <i class="fas fa-map-marker-alt mr-1 text-grey-dark"></i>
+                  {{ item.locations }}
                 </div>
-                <div class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
-                     View Now
-                    <i class="fas fa-chevron-right"></i>
+                <span class="text-5xl text-grey-darkest"
+                  >{{ item.price }}<span class="text-lg">/B.</span></span
+                >
+                <div class="flex items-center mt-4">
+                  <p>{{ item.description }}</p>
                 </div>
+              </div>
+              <div
+                class="
+                  bg-grey-lighter
+                  p-3
+                  flex
+                  items-center
+                  justify-between
+                  transition
+                  hover:bg-grey-light
+                "
+              >
+                View Now
+                <i class="fas fa-chevron-right"></i>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
-  </div>
   </div>
 </template>
 
 <script>
 import navber from "../components/navber.vue";
-import top from "../test/top.json"
+import top from "../test/top.json";
 export default {
   data() {
     return {

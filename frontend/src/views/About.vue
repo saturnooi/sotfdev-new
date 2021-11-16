@@ -1,14 +1,255 @@
 <template>
-<body>
-  <div class="container">
-    <div class="nav">
-      <span>มาใส่ navbar </span>
-    </div> 
-    <div class="AboutUs">
-      <div class ="who-we-are">
-        <h3>Tasker</h3>
-        <span> Tasker is a kod hod App. Please Downlaod</span>
+  <body>
+    <navber />
+
+    <div class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Tasker</span>
+          <span class="heading-primary--sub"
+            >Tasker is a kod hod App. Please Downlaod</span
+          >
+        </h1>
       </div>
+    </div>
+
+    <div
+      class="
+        mt-8
+        container container
+        m-auto
+        flex flex-wrap flex-col
+        md:flex-row
+        items-center
+        justify-start
+      "
+    >
+      <div class="flex flex-col w-1/3 p-3">
+        <div class="rounded-lg shadow-xl bg-white p-10">
+          <img
+            src="../assets/zen.jpg"
+            alt=""
+            class="rounded-full p-4 h-40 mx-auto"
+          />
+          <!--Card Header-->
+          <header class="text-2xl font-extrabold py-4 px-4 text-center">
+            Name Surname
+          </header>
+          <div>
+            <ul class="text-gray-500 text-center font-semibold">
+              <li>Backend Developer</li>
+              <li>Description</li>
+            </ul>
+          </div>
+          <!--Card Footer-->
+          <footer class="text-center py-3 px-8 text-gray-500">
+            <button
+              class="
+                py-2
+                px-4
+                mt-5
+                bg-green-500
+                rounded-lg
+                text-white
+                font-semibold
+                hover:bg-green-600
+              "
+            >
+              FOLLOW
+            </button>
+          </footer>
+        </div>
+      </div>
+
+      <div class="flex flex-col w-1/3 p-3">
+        <div class="rounded-lg shadow-xl bg-white p-10">
+          <img
+            src="../assets/zen.jpg"
+            alt=""
+            class="rounded-full p-4 h-40 mx-auto"
+          />
+          <!--Card Header-->
+          <header class="text-2xl font-extrabold py-4 px-4 text-center">
+            Name Surname
+          </header>
+          <div>
+            <ul class="text-gray-500 text-center font-semibold">
+              <li>Backend Developer</li>
+              <li>Description</li>
+            </ul>
+          </div>
+          <!--Card Footer-->
+          <footer class="text-center py-3 px-8 text-gray-500">
+            <button
+              class="
+                py-2
+                px-4
+                mt-5
+                bg-green-500
+                rounded-lg
+                text-white
+                font-semibold
+                hover:bg-green-600
+              "
+            >
+              FOLLOW
+            </button>
+          </footer>
+        </div>
+      </div>
+
+      <div class="flex flex-col w-1/3 p-3">
+        <div class="rounded-lg shadow-xl bg-white p-10">
+          <img
+            src="../assets/zen.jpg"
+            alt=""
+            class="rounded-full p-4 h-40 mx-auto"
+          />
+          <!--Card Header-->
+          <header class="text-2xl font-extrabold py-4 px-4 text-center">
+            Name Surname
+          </header>
+          <div>
+            <ul class="text-gray-500 text-center font-semibold">
+              <li>Backend Developer</li>
+              <li>Description</li>
+            </ul>
+          </div>
+          <!--Card Footer-->
+          <footer class="text-center py-3 px-8 text-gray-500">
+            <button
+              class="
+                py-2
+                px-4
+                mt-5
+                bg-green-500
+                rounded-lg
+                text-white
+                font-semibold
+                hover:bg-green-600
+              "
+            >
+              FOLLOW
+            </button>
+          </footer>
+        </div>
+      </div>
+
+      <div class="flex flex-col w-1/3 p-3">
+        <div class="rounded-lg shadow-xl bg-white p-10">
+          <img
+            src="../assets/zen.jpg"
+            alt=""
+            class="rounded-full p-4 h-40 mx-auto"
+          />
+          <!--Card Header-->
+          <header class="text-2xl font-extrabold py-4 px-4 text-center">
+            Name Surname
+          </header>
+          <div>
+            <ul class="text-gray-500 text-center font-semibold">
+              <li>Backend Developer</li>
+              <li>Description</li>
+            </ul>
+          </div>
+          <!--Card Footer-->
+          <footer class="text-center py-3 px-8 text-gray-500">
+            <button
+              class="
+                py-2
+                px-4
+                mt-5
+                bg-green-500
+                rounded-lg
+                text-white
+                font-semibold
+                hover:bg-green-600
+              "
+            >
+              FOLLOW
+            </button>
+          </footer>
+        </div>
+      </div>
+
+      <div class="flex flex-col w-1/3 p-3">
+        <div class="rounded-lg shadow-xl bg-white p-10">
+          <img
+            src="../assets/zen.jpg"
+            alt=""
+            class="rounded-full p-4 h-40 mx-auto"
+          />
+          <!--Card Header-->
+          <header class="text-2xl font-extrabold py-4 px-4 text-center">
+            Name Surname
+          </header>
+          <div>
+            <ul class="text-gray-500 text-center font-semibold">
+              <li>Backend Developer</li>
+              <li>Description</li>
+            </ul>
+          </div>
+          <!--Card Footer-->
+          <footer class="text-center py-3 px-8 text-gray-500">
+            <button
+              class="
+                py-2
+                px-4
+                mt-5
+                bg-green-500
+                rounded-lg
+                text-white
+                font-semibold
+                hover:bg-green-600
+              "
+            >
+              FOLLOW
+            </button>
+          </footer>
+        </div>
+      </div>
+
+      <div class="flex flex-col w-1/3 p-3">
+        <div class="rounded-lg shadow-xl bg-white p-10">
+          <img
+            src="../assets/zen.jpg"
+            alt=""
+            class="rounded-full p-4 h-40 mx-auto"
+          />
+          <!--Card Header-->
+          <header class="text-2xl font-extrabold py-4 px-4 text-center">
+            Name Surname
+          </header>
+          <div>
+            <ul class="text-gray-500 text-center font-semibold">
+              <li>Backend Developer</li>
+              <li>Description</li>
+            </ul>
+          </div>
+          <!--Card Footer-->
+          <footer class="text-center py-3 px-8 text-gray-500">
+            <button
+              class="
+                py-2
+                px-4
+                mt-5
+                bg-green-500
+                rounded-lg
+                text-white
+                font-semibold
+                hover:bg-green-600
+              "
+            >
+              FOLLOW
+            </button>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!--
+  <div class="container">
+    <div class="AboutUs">
       <div class="cards">
         <div class="card">
           <div class="card-img card-img1"></div>
@@ -58,18 +299,21 @@
               <p>Description</p>
             </card>
         </div>        
-
-        <div class="social-media">
-          <i class="fa fa-github" style="font-size:24px"></i>
-          <i class="fa fa-linkedin" style="font-size:24px"></i>
-          <i class="fa fa-twitter" style="font-size:24px"></i>
-          <i class="fa fa-facebook" style="font-size:24px"></i>
-        </div>
       </div>
     </div>
   </div>
-</body>
+  --></body>
 </template>
+
+<script>
+import navber from "../components/navber.vue";
+export default {
+  components: {
+    navber,
+  },
+};
+</script>
+
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
@@ -77,118 +321,5 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
-
-.container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* background-image: url('../assets/meme.png');
-  background-size: cover;
-  background-position: center center; */
-  padding: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 10px;
-}
-
-.nav span {
-  margin-left: 20px;
-}
-
-.AboutUs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-direction: column;
-}
-
-.who-we-are {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.who-we-are span {
-  width: 60%;
-  align-items: center;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
-.card-img {
-  border-radius: 5px;
-}
-
-.cards .card{
-  width: 16rem;
-  margin: 20px;
-}
-
-.card p{
-  font-size: 14px;
-}
-
-.social-media{
-  width: 90%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-social-media.i {
-  margin:10px;
-}
-
-.active {
-  border-bottom: 1px solid #fff;
-}
-
-.card-img1{
-  width: 100%;
-  height: 12rem;
-  /* background-image: url();
-  background-size: cover;
-  background-position: center center; */
-}
-
-.card-img2{
-  width: 100%;
-  height: 12rem;
-  /* background-image: url();
-  background-size: cover;
-  background-position: center center; */
-}
-
-.card-img3{
-  width: 100%;
-  height: 12rem;
-  /* background-image: url();
-  background-size: cover;
-  background-position: center center; */
-}
-
-.card-img4{
-  width: 100%;
-  height: 12rem;
-  /* background-image: url();
-  background-size: cover;
-  background-position: center center; */
-}
-
 </style>
