@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-gray-100">
     <navber />
     <div
       class="
@@ -16,11 +16,11 @@
         >
           <img
             class="w-full h-56 object-cover object-center"
-            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            src="../assets/img/Usernull.png"
             alt="avatar"
           />
           <div class="flex items-center px-6 py-3 bg-gray-900">
-            <h1 class="mx-3 text-white font-semibold text-lg">Category</h1>
+            <h1 class=" text-white font-semibold text-lg">{{ category }}</h1>
           </div>
           <div class="py-4 px-6">
             <h1
@@ -63,7 +63,8 @@ import tasks from "../test/alltasker.json";
 export default {
   data() {
     return {
-      select: "",
+      category: 'Cleanings',
+      select: '',
       alltasks: tasks.data.users,
     };
   },

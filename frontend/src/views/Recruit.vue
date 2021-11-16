@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-gray-100" >
     <navber />
     <div
       class="
@@ -16,7 +16,7 @@
         v-bind:key="category"
         class="flex flex-col w-1/2"
       >
-        <div v-on:click="select = category.path" class="p-5 bg-blue-100">
+        <div v-on:click="select = category.path" class="p-5 ">
           <div class="bg-white p-6 rounded-lg shadow-lg">
             <h2 class="text-2xl font-bold m-2 text-gray-800">
               <p>{{ category.name }}</p>
@@ -40,15 +40,15 @@ export default {
           path: "cleanings",
         },
         {
-          name: "consultants",
+          name: "Consultants",
           path: "consultants",
         },
         {
-          name: "handymen",
+          name: "Handymen",
           path: "handymen",
         },
         {
-          name: "mountings",
+          name: "Mountings",
           path: "mountings",
         },
         {

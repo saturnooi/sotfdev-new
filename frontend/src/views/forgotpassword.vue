@@ -1,6 +1,6 @@
 
 <template>
-    <div class="container">
+    <div class="bg-gray-100 container">
         <div class="forms-container">
             <div class="signin-signup">
                 <form action="#" class="sign-in-form">
