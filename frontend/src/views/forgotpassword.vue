@@ -9,7 +9,7 @@
                         <i class="fas fa-user"></i>
                         <input type="text" placeholder="Email" />
                     </div>
-                    <input type="submit" value="Sead password" class="btn solid" />
+                    <input type="submit" value="Save password" class="btn solid" />
                 </form>
             </div>
         </div>
