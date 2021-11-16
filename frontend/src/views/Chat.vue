@@ -93,11 +93,6 @@ body {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.chat-sidebar::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: #667aff;
-  outline: 1px solid slategrey;
-}
 
 .chat-messages::-webkit-scrollbar {
   width: 1em;
@@ -172,15 +167,15 @@ a {
 /* Chat Page */
 
 .chat-container {
-  max-width: 1500px;
+  max-width: 100%;
   height: 900px;
   background: #fff;
-  margin: 30px auto;
+  margin:0;
   overflow: hidden;
 }
 
 .chat-header {
-  background: var(--dark-color-a);
+  background: #0096FF;
   color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -198,11 +193,12 @@ a {
 }
 
 .chat-sidebar {
-  background: var(--dark-color-b);
+  background: #ADD8E6;
   color: #fff;
   padding: 20px 20px 60px;
   overflow-y: scroll;
-  width: 390px;
+  width: px;
+  height: 755px;
 }
 
 .users {
@@ -254,7 +250,7 @@ a {
 }
 
 .agreement {
-  background: var(--dark-color-b);
+  background: #ADD8E6;
   color: #fff;
   padding: 20px 20px 60px;
   width: 310px;
@@ -272,11 +268,13 @@ a {
   font-size: 40px;
   position: relative;
   top: 10px;
+  color: black;
 }
 
 .plsInsert {
   font-family: "Poppins", sans-serif;
   margin-top: 100px;
+  color:black;
 }
 
 .price {
@@ -292,6 +290,7 @@ a {
   margin-top: 5px;
   text-align: center;
   position: relative;
+  color: #000;
 }
 
 .textbar {
@@ -444,7 +443,7 @@ input:focus::placeholder {
 .chat-messages {
   padding: 30px;
   max-height: 755px;
-  width: 800px;
+  width: 1200px;
   overflow-y: scroll;
 }
 
@@ -470,14 +469,14 @@ input:focus::placeholder {
 
 .chat-form-container {
   padding: 20px 30px;
-  background-color: var(--dark-color-a);
+  background-color: #0096FF;
 }
 
 .chat-form-container form {
   display: flex;
   width: 820px;
   position: relative;
-  left: 350px;
+  left: 550px;
 }
 
 .chat-form-container input[type="text"] {
