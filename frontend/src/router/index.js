@@ -4,8 +4,9 @@ import LoginAndRegister from '../views/LoginAndRegister.vue'
 import Chat from '../views/Chat.vue'
 import Forgotpassword from '../views/forgotpassword.vue'
 import Recruit from '../views/Recruit.vue'
+import Profile from '../views/profile.vue'
 import Taskers from '../views/taskers.vue'
-
+import Resetpassword from '../views/resetpassword.vue'
 const routes = [{
         path: '/Home',
         name: 'Home',
@@ -44,6 +45,16 @@ const routes = [{
         path: '/taskers',
         name: 'taskers',
         component: Taskers
+    },
+    {
+        path: '/profile',
+        name: 'profile',
+        component: Profile
+    },
+    {
+        path: '/resetpassword',
+        name: 'resetpassword',
+        component: Resetpassword
     }
 ]
 

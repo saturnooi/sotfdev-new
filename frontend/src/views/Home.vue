@@ -54,10 +54,10 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl ml-3 leading-tight">
+            <div class="text-black font-bold text-3xl ml-3 leading-tight">
               Cleanings
             </div>
-            <p class="ml-3">
+            <p class="ml-3 text-sm">
               Ability to commit to maintaining high standards of personal
               hygiene
             </p>
@@ -95,10 +95,10 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl leading-tight">
+            <div class="text-black font-bold text-3xl leading-tight">
               Consultants
             </div>
-            <p>
+            <p class = "text-sm">
               Consultants aim to improve an organisation's position or profile
               by helping to solve problems, manage change and improve
               efficiency.
@@ -137,10 +137,10 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl leading-tight">
+            <div class="text-black font-bold text-3xl leading-tight">
               Handymen
             </div>
-            <p>
+            <p class="text-sm">
               We are looking for a reliable Handyman to undertake upkeep and
               repair tasks at the interior or exterior of company premises.
               We’ll rely on you to keep our facilities in perfect condition by
@@ -180,10 +180,10 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl leading-tight">
+            <div class="text-black font-bold text-3xl leading-tight">
               Mountings
             </div>
-            <p>
+            <p class="text-sm">
               Responsible for maintaining of all fixtures and mounting devices
               used in weapon testing.
             </p>
@@ -220,10 +220,10 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl leading-tight">
+            <div class="text-black font-bold text-3xl leading-tight">
               Personal Assistants
             </div>
-            <p>
+            <p class="text-sm">
               A personal assistant, also referred to as personal aide (PA) or
               personal secretary (PS), is a job title describing a person who
               assists a specific person with their daily business or personal
@@ -262,10 +262,10 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl leading-tight">
+            <div class="text-black font-bold text-3xl leading-tight">
               Moving Services
             </div>
-            <p>
+            <p class="text-sm">
               Check out our Employment Section for jobs in moving & storage
               industry. You'll find jobs for movers and moving company jobs.
             </p>
@@ -303,7 +303,7 @@
               leading-normal
             "
           >
-            <div class="text-black font-bold text-4xl leading-tight">
+            <div class="text-black font-bold text-3xl leading-tight">
               Visual Audios
             </div>
             <p>
@@ -316,7 +316,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-7 mb-5 ml-2 font-bold text-4xl">Top Taskers</div>
+    <div class="mt-7 mb-5 ml-2 font-bold text-3xl">Top Taskers</div>
     <div
       class="
         container container
@@ -349,8 +349,11 @@
             />
             <div class="w-full flex flex-col">
               <div class="p-4 pb-0 flex-1">
-                <h3 class="font-light mb-1 text-grey-darkest">
+                <h3 v-if="item.user != null" class="font-light mb-1 text-grey-darkest">
                   {{ item.user }}
+                </h3>
+                <h3 v-else class="font-light mb-1 text-grey-darkest">
+                  Tasker profile
                 </h3>
                 <div class="text-xs flex items-center mb-4">
                   <i class="fas fa-map-marker-alt mr-1 text-grey-dark"></i>
