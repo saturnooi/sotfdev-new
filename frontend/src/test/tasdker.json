@@ -1,0 +1,45 @@
+{
+    "status": "success",
+    "user": {
+        "_id": "61941316f6d12876b73772c0",
+        "user": {
+            "_id": "619412b7f6d12876b73772bb",
+            "firstname": "Tnapol",
+            "lastname": "Kampoh",
+            "photo": "default.jpg"
+        },
+        "ratingsAverage": 4.5,
+        "ratingsQuantity": 0,
+        "description": "House cleaners are guaranteed for 5 years in a row.",
+        "price": 1500,
+        "locations": "Ubon",
+        "subCategories": [
+            "House Cleaning Services",
+            "Disinfecting Services"
+        ],
+        "review": [{
+                "_id": "619434ab9ef46edc1cd01aa0",
+                "userReview": {
+                    "_id": "618fe3b6b9dc1a275b6df135",
+                    "firstname": "Nattapat",
+                    "lastname": "Arunkitjaroen",
+                    "photo": "user-618fe3b6b9dc1a275b6df135-1637099320020.jpeg"
+                },
+                "review": "ดี จึ้งมากปังมาก"
+            },
+            {
+                "_id": "619434ab9ef46edc1cd01aa1",
+                "userReview": {
+                    "_id": "618f9f8cbb1708523c95f4cb",
+                    "firstname": "Noppawat",
+                    "lastname": "Khamyot",
+                    "photo": "default.jpg"
+                },
+                "review": "ทำความสะอาดได้ ดีมาก เก่งมาก เยี่ยมยอด"
+            }
+        ],
+        "history": [],
+        "__v": 0,
+        "id": "61941316f6d12876b73772c0"
+    }
+}

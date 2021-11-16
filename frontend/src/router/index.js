@@ -8,7 +8,7 @@ import Profile from '../views/profile.vue'
 import Taskers from '../views/taskers.vue'
 import Resetpassword from '../views/resetpassword.vue'
 import Paid from '../views/Paid.vue'
-
+import Taskeruser from '../views/taskeruser.vue'
 const routes = [{
         path: '/Home',
         name: 'Home',
@@ -62,6 +62,12 @@ const routes = [{
         path: '/payment',
         name: 'payment',
         component: Paid
+
+    },
+    {
+        path: '/taskeruser',
+        name: 'taskeruser',
+        component: Taskeruser
 
     }
 ]
