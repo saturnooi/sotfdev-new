@@ -7,6 +7,8 @@ import Recruit from '../views/Recruit.vue'
 import Profile from '../views/profile.vue'
 import Taskers from '../views/taskers.vue'
 import Resetpassword from '../views/resetpassword.vue'
+import Paid from '../views/Paid.vue'
+
 const routes = [{
         path: '/Home',
         name: 'Home',
@@ -55,6 +57,12 @@ const routes = [{
         path: '/resetpassword',
         name: 'resetpassword',
         component: Resetpassword
+    },
+    {
+        path: '/payment',
+        name: 'payment',
+        component: Paid
+
     }
 ]
 

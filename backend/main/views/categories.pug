@@ -1,0 +1,44 @@
+extends base
+
+block content
+  main.main
+    h1="Top Tasker"
+    .card-container
+    
+      each tasker in taskers
+        .card
+          .card__header
+            .card__picture
+              .card__picture-overlay &nbsp;
+            h3.heading-tertirary
+              span= tasker.firstname 
+              br
+              span= tasker.lastname
+
+          .card__details
+            each subCategorie in tasker.subCategories
+              h4.card__sub-heading= subCategorie
+            p.card__text= `${tasker.description}`
+            .card__data
+              svg.card__icon
+                //- use(xlink:href='/img/icons.svg#icon-map-pin')
+                use(xlink:href='/img/icons.svg#icon-flag')
+              span= tasker.province
+            //- .card__data
+            //-   svg.card__icon
+                //- use(xlink:href='/img/icons.svg#icon-calendar')
+            //-   span= tasker.province
+            //- .card__data
+            //-   svg.card__icon
+                //- use(xlink:href='/img/icons.svg#icon-flag')
+              //- span= `${tasker.province}`
+            //- .card__data
+            //-   svg.card__icon
+            //-     use(xlink:href='/img/icons.svg#icon-user')
+            //-   span= `${tasker.maxGroupSize} people`
+
+          .card__footer
+            p
+              span.card__footer-value= `${tasker.reviewScore} %`
+            p.card__ratings
+            a.btn.btn--green.btn--small(href=`/tasker/${tasker.collection.collectionName}/${tasker.id}`) Details

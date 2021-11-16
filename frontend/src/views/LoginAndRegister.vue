@@ -3,7 +3,7 @@
   <div class="bg-gray-100 container">
     <div class="forms-container">
       <div class="signin-signup">
-        <form action="#" class="sign-in-form">
+        <form action="/home" class="sign-in-form">
           <h2 class="title">Sign in</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
@@ -15,7 +15,7 @@
           </div>
            <h1>{{loginForm.username}} </h1>
            <h1>{{loginForm.password}}</h1>
-          <input type="submit"  value="Login" class="btn solid" @submit.prevent="handleSubmit(onSubmit)"/>
+          <button type="submit"  class="btn solid" @submit.prevent="handleSubmit(onSubmit)"/>
         </form>
 
         <form action="#" class="sign-up-form">
