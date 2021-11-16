@@ -1,4 +1,3 @@
-
 <template>
   <div class="container" v-bind:class="{ 'sign-up-mode': isstatlogin}" >
     <div class="forms-container">
@@ -77,49 +76,7 @@
   </div>
 </template>
 
-<script>
-import axios from "axios";
-export default {
-  data() {
-    return {
-      isShowPassword: false,
-      loginForm: {
-        username: "",
-        password: "",
-      },
-    };
-  },
-  methods: {
-    onSubmit: function () {
-      const username1 = this.loginForm.username;
-      const password1 = this.loginForm.password;
-      axios
-        .post(`http://127.0.0.1:3000/user/login`, {
-          email: username1,
-          password: password1,
-        }).then(function (response) {
-          console.log(response);
-          if (response.data.status === 'success') {
-            alert('success', 'Logged in successfully!');
-            location.assign('/Home');
-        }
-        });
-       
-    },
-    mounted() {
-      const container = document.querySelector(".container");
-      this.Register_mode = function () {
-        container.classList.add("sign-up-mode");
-      };
-      this.Login_mode = function () {
-        container.classList.remove("sign-up-mode");
-      };
-    },
-  },
-};
-</script>
 
-</template>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
@@ -521,11 +478,6 @@ form.sign-in-form {
   }
 }
 </style>
-
-
-
-
-
 
 <script>
 import axios from "axios";
