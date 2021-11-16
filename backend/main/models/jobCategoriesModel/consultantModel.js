@@ -31,7 +31,7 @@ const consultantSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['Marketing', 'Legal', 'Financial-planning', 'Horoscope', 'Tutoring', 'Feng-shui', 'Psychologist']
+        //enum: ["Marketing", "Legal", "Financial-planning", "Horoscope", "Tutoring", "Feng-shui", "Psychologist"]
     }
 },
     {

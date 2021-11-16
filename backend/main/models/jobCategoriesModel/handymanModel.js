@@ -31,7 +31,7 @@ const handymanSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['Home Repairs', 'Furniture Assembly', 'Plumbing', 'Mounting', 'Electrical Help', 'Heavy Lifting']
+        //enum: ["Home Repairs", "Furniture Assembly", "Plumbing", "Mounting", "Electrical Help", "Heavy Lifting"]
     }
 },
     {

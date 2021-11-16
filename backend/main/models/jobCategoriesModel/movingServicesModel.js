@@ -31,7 +31,7 @@ const movingServicesSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['Help Moving', 'Furniture Movers', 'Rearrange Furniture']
+        //enum: ["Help Moving", "Furniture Movers", "Rearrange Furniture"]
     }
 },
     {

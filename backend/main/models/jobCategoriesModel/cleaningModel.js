@@ -43,7 +43,7 @@ const cleaningSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['House Cleaning Services', 'Disinfecting Services', 'Laundry Help', 'Air Conditioning Cleaning Service']
+        //enum: ["House Cleaning Services", "Disinfecting Services", "Laundry Help", "Air Conditioning Cleaning Service"]
     }
 },
     {

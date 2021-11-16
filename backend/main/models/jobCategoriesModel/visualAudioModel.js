@@ -31,7 +31,7 @@ const visualAudioSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['Photography', 'Videography', 'Voice-over', 'Singer-band', 'Animations', 'Podcast', 'Subtitle', 'Sound Engineering', 'Makeup']
+        //enum: ["Photography", "Videography", "Voice-over", "Singer-band", "Animations", "Podcast", "Subtitle", "Sound Engineering", "Makeup"]
     }
 },
     {

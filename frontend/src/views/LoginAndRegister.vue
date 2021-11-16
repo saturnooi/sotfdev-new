@@ -7,11 +7,11 @@
           <h2 class="title">Sign in</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
-            <input type="text" placeholder="Username" v-model="loginForm.username" />
+            <input type="email" placeholder="Email" required v-model="loginForm.username"/>
           </div>
           <div class="input-field">
             <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password" v-model="loginForm.password" />
+            <input type="password" placeholder="Password" v-model="loginForm.password" required />
           </div>
          <button type="button" class="btn solid" v-on:click="onSubmit">
             Login
@@ -75,6 +75,49 @@
       </div>
     </div>
   </div>
+</template>
+
+<script>
+import axios from "axios";
+export default {
+  data() {
+    return {
+      isShowPassword: false,
+      loginForm: {
+        username: "",
+        password: "",
+      },
+    };
+  },
+  methods: {
+    onSubmit: function () {
+      const username1 = this.loginForm.username;
+      const password1 = this.loginForm.password;
+      axios
+        .post(`http://127.0.0.1:3000/user/login`, {
+          email: username1,
+          password: password1,
+        }).then(function (response) {
+          console.log(response);
+          if (response.data.status === 'success') {
+            alert('success', 'Logged in successfully!');
+            location.assign('/Home');
+        }
+        });
+       
+    },
+    mounted() {
+      const container = document.querySelector(".container");
+      this.Register_mode = function () {
+        container.classList.add("sign-up-mode");
+      };
+      this.Login_mode = function () {
+        container.classList.remove("sign-up-mode");
+      };
+    },
+  },
+};
+</script>
 
 </template>
 

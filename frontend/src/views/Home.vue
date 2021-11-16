@@ -98,7 +98,7 @@
             <div class="text-black font-bold text-3xl leading-tight">
               Consultants
             </div>
-            <p class = "text-sm">
+            <p class="text-sm">
               Consultants aim to improve an organisation's position or profile
               by helping to solve problems, manage change and improve
               efficiency.
@@ -349,8 +349,11 @@
             />
             <div class="w-full flex flex-col">
               <div class="p-4 pb-0 flex-1">
-                <h3 v-if="item.user != null" class="font-light mb-1 text-grey-darkest">
-                  {{ item.user }}
+                <h3
+                  v-if="item.user != null"
+                  class="font-light mb-1 text-grey-darkest"
+                >
+                  {{ item.user.firstname }} {{ item.user.lastname }}
                 </h3>
                 <h3 v-else class="font-light mb-1 text-grey-darkest">
                   Tasker profile
@@ -366,20 +369,21 @@
                   <p>{{ item.description }}</p>
                 </div>
               </div>
-              <div
-                class="
-                  bg-grey-lighter
-                  p-3
-                  flex
-                  items-center
-                  justify-between
-                  transition
-                  hover:bg-grey-light
-                "
-              >
-                View Now
-                <i class="fas fa-chevron-right"></i>
-              </div>
+              <a href={{item.user.id}}>
+                <div
+                  class="
+                    bg-grey-lighter
+                    p-3
+                    flex
+                    items-center
+                    justify-between
+                    transition
+                    hover:bg-grey-light
+                  "
+                >
+                  View Now<i class="fas fa-chevron-right"></i>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -389,17 +393,25 @@
 </template>
 
 <script>
+import axios from "axios";
 import navber from "../components/navber.vue";
-import top from "../test/top.json";
 export default {
   data() {
+    // let listTopTasker = axios.get(`http://127.0.0.1:3000/`
     return {
-      Top: top.taskers,
+      Top: "",
     };
   },
 
   components: {
     navber,
+  },
+  methods: {},
+  mounted() {
+    axios.get(`http://127.0.0.1:3000/`).then((res) => {
+      this.Top = res.data.taskers;
+      console.log(res.data.taskers);
+    });
   },
 };
 </script>

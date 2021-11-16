@@ -31,7 +31,7 @@ const yardworkSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['Tree Trimming Service', 'Hedge Trimming Service', 'Lawn Mowing', 'Gutter Cleaning', 'Patio Cleaning', 'Pool Cleaning Services']
+        //enum: ["Tree Trimming Service", "Hedge Trimming Service", "Lawn Mowing", "Gutter Cleaning", "Patio Cleaning", "Pool Cleaning Services"]
     }
 },
     {

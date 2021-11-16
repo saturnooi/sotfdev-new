@@ -80,6 +80,7 @@
           </div>
           <!--Card Footer-->
           <footer class="text-center py-3 px-8 text-gray-500">
+            <a href="https://www.instagram.com/npw.k" >
             <button
               class="
                 py-2
@@ -94,6 +95,7 @@
             >
               FOLLOW
             </button>
+            </a>
           </footer>
         </div>
       </div>

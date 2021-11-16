@@ -31,7 +31,7 @@ const mountingSchema = new Schema({
     subCategories: {
         type: [String],
         require: true,
-        //enum: ['TV Mounting', 'Hanging Curtains & Installing Blinds', 'Mounting solar', 'Door & Window Installation', 'Light Installation']
+        //enum: ["TV Mounting", "Hanging Curtains & Installing Blinds", "Mounting solar", "Door & Window Installation", "Light Installation"]
     }
 },
     {
