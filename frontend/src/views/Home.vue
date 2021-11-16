@@ -342,13 +342,18 @@
               text-grey-darkest
             "
           >
-            <img
-              class="w-45 h-45 object-cover rounded-full"
-              :src="
-                require('../../../backend/main/public/img/users/' +
-                  item.user.photo)
-              "
-            />
+            <div class="w-1/2 h-full rounded-l-sm">
+              <div class="flex items-center justify-center h-full">
+                <img
+                  class="w-2/3 object-cover  rounded-full"
+                  :src="
+                    require('../../../backend/main/public/img/users/' +
+                      item.user.photo)
+                  "
+                />
+              </div>
+            </div>
+
             <div class="w-full flex flex-col">
               <div class="p-4 pb-0 flex-1">
                 <h3
