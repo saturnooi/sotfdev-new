@@ -175,7 +175,7 @@
       <div class="flex flex-col w-1/3 p-3">
         <div class="rounded-lg shadow-xl bg-white p-10">
           <img
-            src="../assets/dg.jpg"
+            src="../assets/mg.jpg"
             alt=""
             class="rounded-full p-4 h-40 mx-auto"
           />
@@ -186,7 +186,7 @@
           <div>
             <ul class="text-gray-500 text-center font-semibold">
               <li>Document / Tester</li>
-              <li>ig : kodhod</li>
+              <li>ig : munggon.9</li>
             </ul>
           </div>
           <!--Card Footer-->
