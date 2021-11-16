@@ -14,161 +14,353 @@
       </div>
     </div>
 
-<<<<<<< Updated upstream
     <div class="mt-7 mb-5 ml-2 font-bold text-4xl">Category</div>
-    <div class="container container  m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
-  
-  <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card1.jpg">
-      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl ml-3 leading-tight">Cleanings</div>
-        <p class="ml-3">Ability to commit to maintaining high standards of personal hygiene</p>
-        <p class="ml-3 text-blue-600 text-base">View now</p>
-=======
-    <div class="Categories">
-      <h2 class="cateHead">Categories</h2>
-      <div class="picRow">
-        <div class="cardPics">          
-          <img class="pic1" src="https://www.monicare.com/files/upload/pages-image-14889.png"/>
-          <h5 class="namePic">Personal Assistant</h5>
+    <div
+      class="
+        container container
+        m-auto
+        flex flex-wrap flex-col
+        md:flex-row
+        items-center
+        justify-start
+      "
+    >
+      <div class="w-full lg:w-1/2 p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover h-40"
+            src="../assets/img/home/card1.jpg"
+          />
+          <div
+            class="
+              w-full
+              bg-white
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl ml-3 leading-tight">
+              Cleanings
+            </div>
+            <p class="ml-3">
+              Ability to commit to maintaining high standards of personal
+              hygiene
+            </p>
+            <p class="ml-3 text-blue-600 text-base">View now</p>
+          </div>
         </div>
-        <div class="cardPics">
-          <img class="pic2" src="https://cdn.fantasticcleaners.com/wp-content/uploads/2021/02/Domestic-1.jpg"/>
-          <h5 class="namePic">Cleaning</h5>
-        </div>
-        <div class="cardPics">
-          <img class="pic3" src="https://www.homemoverspro.com/wp-content/uploads/2021/03/moving-people.jpg"/>
-          <h5 class="namePic">Transport Service</h5>
-        </div>
       </div>
-    </div>
-    <h1 class="Toptasker">Top Tasker</h1>
-    <div class="container container  m-auto flex flex-wrap flex-col md:flex-row items-center justify-start">
-  
-  <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="http://s2.thousandreason.com/thimgs/202006/30/3/15935016969718.jpg">
-      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Wanna make your life easier?</div>
-        <p class="text-grey-darker text-base">Read more</p>
->>>>>>> Stashed changes
-      </div>
-    </div>
-  </div>
-  
-  
-  
-  <div class="w-full lg:w-1/2 p-3">
-<<<<<<< Updated upstream
-    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card2.jpg">
-      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl leading-tight">Consultants</div>
-        <p>Consultants aim to improve an organisation's position or profile by helping to solve problems, manage change and improve efficiency.</p>
-        <p class="text-blue-600  text-base">View now</p>
-=======
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover" src="https://www.nestle.co.th/sites/g/files/pydnoa486/files/styles/full_width_image_1920x795_/public/search_jobs.jpg?itok=p3kZ20HB">
-      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Find your job here.</div>
-        <p class="text-grey-darker text-base">Read more</p>
->>>>>>> Stashed changes
-      </div>
-    </div>
-  </div>
-  
-    <div class="w-full lg:w-1/2 p-3">
-<<<<<<< Updated upstream
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card3.jpg">
-      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl leading-tight">Handymen</div>
-        <p>We are looking for a reliable Handyman to undertake upkeep and repair tasks at the interior or exterior of company premises. We’ll rely on you to keep our facilities in perfect condition by doing various odd jobs.</p>
-      <p class="text-blue-600  text-base">View now</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card4.jpg">
-      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl leading-tight">Mountings</div>
-        <p>Responsible for maintaining of all fixtures and mounting devices used in weapon testing.</p>
-        <p class="text-blue-600  text-base">View now</p>
-=======
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/256/job4_f.jpg">
-      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">External task.</div>
-        <p class="text-grey-darker text-base">Read more</p>
+      <div class="w-full lg:w-1/2 p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row-reverse
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover"
+            src="../assets/img/home/card2.jpg"
+          />
+          <div
+            class="
+              bg-white
+              w-full
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl leading-tight">
+              Consultants
+            </div>
+            <p>
+              Consultants aim to improve an organisation's position or profile
+              by helping to solve problems, manage change and improve
+              efficiency.
+            </p>
+            <p class="text-blue-600 text-base">View now</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  
-  
-    <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-32 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-48 flex-none bg-cover h-24" src="https://quicksilvertranslate.com/wp-content/uploads/blog-image-cost-objective-1024x684-1.jpg">
-      <div class="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-xl mb-2 leading-tight">Make your objective complete.</div>
-        <p class="text-grey-darker text-base">Read more</p>
->>>>>>> Stashed changes
-      </div>
-    </div>
-  </div>
-  <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-40" src="../assets/img/home/card6.jpg">
-      <div class=" w-full bg-white  rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl leading-tight">Personal Assistants </div>
-        <p>A personal assistant, also referred to as personal aide (PA) or personal secretary (PS), is a job title describing a person who assists a specific person with their daily business or personal tasks.</p>
-        <p class="text-blue-600  text-base">View now</p>
-      </div>
-    </div>
-  </div>
-  <div class="w-full lg:w-1/2 p-3">
-    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover" src="../assets/img/home/card5.jpg">
-      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl leading-tight">Moving Services</div>
-        <p>Check out our Employment Section for jobs in moving & storage industry. You'll find jobs for movers and moving company jobs.</p>
-        <p class="text-blue-600  text-base">View now</p>
-      </div>
-    </div>
-  </div>
-  
-  
-  
-  
-  
- 
-  
-<<<<<<< Updated upstream
-    <div class="w-full p-3">
-    <div class="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-48 border shadow shadow-lg">
-      <img class="block h-auto w-full lg:w-64 flex-none bg-cover h-24" src="../assets/img/home/card7.jpg">
-      <div class="bg-white w-full rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="text-black font-bold text-4xl leading-tight">Visual Audios</div>
-        <p>Coordinate with editorial teams on video, audio, and visual projects. Create, develop and produce innovative digital video programs and marketing content.</p>
-        <p class="text-blue-600 text-base">View now</p>
-      </div>
-    </div>
-  </div>
-=======
->>>>>>> Stashed changes
-  
 
-  
-</div>
+      <div class="w-full lg:w-1/2 p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover h-40"
+            src="../assets/img/home/card3.jpg"
+          />
+          <div
+            class="
+              w-full
+              bg-white
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl leading-tight">
+              Handymen
+            </div>
+            <p>
+              We are looking for a reliable Handyman to undertake upkeep and
+              repair tasks at the interior or exterior of company premises.
+              We’ll rely on you to keep our facilities in perfect condition by
+              doing various odd jobs.
+            </p>
+            <p class="text-blue-600 text-base">View now</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-1/2 p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row-reverse
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover"
+            src="../assets/img/home/card4.jpg"
+          />
+          <div
+            class="
+              bg-white
+              w-full
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl leading-tight">
+              Mountings
+            </div>
+            <p>
+              Responsible for maintaining of all fixtures and mounting devices
+              used in weapon testing.
+            </p>
+            <p class="text-blue-600 text-base">View now</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover h-40"
+            src="../assets/img/home/card6.jpg"
+          />
+          <div
+            class="
+              w-full
+              bg-white
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl leading-tight">
+              Personal Assistants
+            </div>
+            <p>
+              A personal assistant, also referred to as personal aide (PA) or
+              personal secretary (PS), is a job title describing a person who
+              assists a specific person with their daily business or personal
+              tasks.
+            </p>
+            <p class="text-blue-600 text-base">View now</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row-reverse
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover"
+            src="../assets/img/home/card5.jpg"
+          />
+          <div
+            class="
+              bg-white
+              w-full
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl leading-tight">
+              Moving Services
+            </div>
+            <p>
+              Check out our Employment Section for jobs in moving & storage
+              industry. You'll find jobs for movers and moving company jobs.
+            </p>
+            <p class="text-blue-600 text-base">View now</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full p-3">
+        <div
+          class="
+            flex flex-col
+            lg:flex-row-reverse
+            rounded
+            overflow-hidden
+            h-auto
+            lg:h-48
+            border
+            shadow shadow-lg
+          "
+        >
+          <img
+            class="block h-auto w-full lg:w-64 flex-none bg-cover h-24"
+            src="../assets/img/home/card7.jpg"
+          />
+          <div
+            class="
+              bg-white
+              w-full
+              rounded-b
+              lg:rounded-b-none lg:rounded-r
+              p-4
+              flex flex-col
+              justify-between
+              leading-normal
+            "
+          >
+            <div class="text-black font-bold text-4xl leading-tight">
+              Visual Audios
+            </div>
+            <p>
+              Coordinate with editorial teams on video, audio, and visual
+              projects. Create, develop and produce innovative digital video
+              programs and marketing content.
+            </p>
+            <p class="text-blue-600 text-base">View now</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="mt-7 mb-5 ml-2 font-bold text-4xl">Top Taskers</div>
+  <div class="container container
+        m-auto
+        flex flex-wrap flex-col
+        md:flex-row
+        items-center
+        justify-start">
+<div v-for="item in Top" :key="item._id" class="w-full lg:w-1/2 p-3 ">
+      <div class="flex flex-col bg-blue-lightest">
+        <div id="app" class="bg-white w-128 h-60 rounded shadow-md flex card text-grey-darkest">
+            <img class="w-1/2 h-full object-cover rounded-l-sm" src="../assets/img/Usernull.png" alt="Room Image">
+            <div class="w-full flex flex-col">
+                <div class="p-4 pb-0 flex-1">
+                    <h3 class="font-light mb-1 text-grey-darkest">{{item.user}}</h3>
+                    <div class="text-xs flex items-center mb-4">
+                        <i class="fas fa-map-marker-alt mr-1 text-grey-dark"></i>
+                        {{item.locations}}
+                    </div>
+                    <span class="text-5xl text-grey-darkest">{{item.price}}<span class="text-lg">/B.</span></span>
+                    <div class="flex items-center mt-4 ">
+                        <p>{{item.description}}</p>
+                    </div>
+                </div>
+                <div class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
+                     View Now
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
   </div>
 </template>
 
 <script>
 import navber from "../components/navber.vue";
-
+import top from "../test/top.json"
 export default {
+  data() {
+    return {
+      Top: top.taskers,
+    };
+  },
+
   components: {
     navber,
   },

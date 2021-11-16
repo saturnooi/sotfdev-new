@@ -1,68 +1,114 @@
 
 <template>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form action="#" class="sign-in-form">
+          <h2 class="title">Sign in</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" v-model="loginForm.username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" v-model="loginForm.password" />
+          </div>
+           <h1>{{loginForm.username}} </h1>
+           <h1>{{loginForm.password}}</h1>
+          <input type="submit"  value="Login" class="btn solid" @submit.prevent="handleSubmit(onSubmit)"/>
+        </form>
 
-    <div class="container">
-        <div class="forms-container">
-            <div class="signin-signup">
-                <form action="#" class="sign-in-form">
-                    <h2 class="title">Sign in</h2>
-                    <div class="input-field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <input type="submit" value="Login" class="btn solid" />
-                </form>
-                <form action="#" class="sign-up-form">
-                    <h2 class="title">Sign up</h2>
-                    <div class="input-field">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email" />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
-                    </div>
-                    <input type="submit" class="btn" value="Sign up" />
-                </form>
-            </div>
-        </div>
-
-        <div class="panels-container">
-            <div class="panel left-panel">
-                <div class="content">
-                    <h3>New here ?</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, ex ratione. Aliquid!
-                    </p>
-                    <button v-on:click = "Register_mode()" class ="btn transparent" id="sign-up-btn" >
-              Sign up 
-            </button>
-                </div>
-                <img src="../assets/svg/login.svg" class="image" alt="" />
-            </div>
-            <div class="panel right-panel">
-                <div class="content">
-                    <h3>One of us ?</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laboriosam ad deleniti.
-                    </p>
-                    <button v-on:click = "Login_mode()" class="btn transparent" id="sign-in-btn">
-              Sign in
-            </button>
-                </div>
-                <img src="../assets/svg/Register.svg" class="image" alt="" />
-            </div>
-        </div>
+        <form action="#" class="sign-up-form">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input type="submit" class="btn" value="Sign up" />
+         
+        </form>
+      </div>
     </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New here ?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+            ex ratione. Aliquid!
+          </p>
+          <button
+            v-on:click="Register_mode()"
+            class="btn transparent"
+            id="sign-up-btn"
+          >
+            Sign up
+          </button>
+        </div>
+        <img src="../assets/svg/login.svg" class="image" alt="" />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>One of us ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            laboriosam ad deleniti.
+          </p>
+          <button
+            v-on:click="Login_mode()"
+            class="btn transparent"
+            id="sign-in-btn"
+          >
+            Sign in
+          </button>
+        </div>
+        <img src="../assets/svg/Register.svg" class="image" alt="" />
+      </div>
+    </div>
+  </div>
 </template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      isShowPassword: false,
+      loginForm: {
+        username: "",
+        password: "",
+      },
+    };
+  },
+  methods: {
+
+    // onSubmit() {
+    //   const username1 = this.loginForm.username
+    //   const password1 = this.loginForm.password
+    //   console.log(axios.post(`127.0.0.1:3000/auth/login`, { username1, password1 })) 
+    // },
+    mounted() {
+      const container = document.querySelector(".container");
+      this.Register_mode = function () {
+        container.classList.add("sign-up-mode");
+      };
+      this.Login_mode = function () {
+        container.classList.remove("sign-up-mode");
+      };
+    },
+  },
+};
+</script>
+
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
@@ -214,7 +260,6 @@ form.sign-in-form {
   transition: 0.5s;
 }
 
-
 .btn:hover {
   background-color: #4d84e2;
 }
@@ -298,8 +343,6 @@ form.sign-in-form {
 .right-panel .content {
   transform: translateX(800px);
 }
-
-
 
 .container.sign-up-mode:before {
   transform: translate(100%, -50%);
@@ -466,29 +509,9 @@ form.sign-in-form {
     left: 50%;
   }
 }
-
 </style>
 
 
 
-<script>
 
 
-export default {
-    data(){
-        return{
-
-        }
-    },
-    mounted() {
-        const container = document.querySelector(".container");
-		this.Register_mode = function() {	
-            container.classList.add("sign-up-mode");
-		}
-        this.Login_mode = function() {	
-            container.classList.remove("sign-up-mode");
-		}
-	}
-}
-
-</script>
