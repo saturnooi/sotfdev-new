@@ -33,12 +33,12 @@
           />
           <!--Card Header-->
           <header class="text-2xl font-extrabold py-4 px-4 text-center">
-            Name Surname
+            Nattapat Arunkitcharoen
           </header>
           <div>
             <ul class="text-gray-500 text-center font-semibold">
               <li>Backend Developer</li>
-              <li>Description</li>
+              <li>ig : zentropy</li>
             </ul>
           </div>
           <!--Card Footer-->
@@ -64,18 +64,18 @@
       <div class="flex flex-col w-1/3 p-3">
         <div class="rounded-lg shadow-xl bg-white p-10">
           <img
-            src="../assets/zen.jpg"
+            src="../assets/aum.jpg"
             alt=""
             class="rounded-full p-4 h-40 mx-auto"
           />
           <!--Card Header-->
           <header class="text-2xl font-extrabold py-4 px-4 text-center">
-            Name Surname
+            Noppawat Khamyot
           </header>
           <div>
             <ul class="text-gray-500 text-center font-semibold">
-              <li>Backend Developer</li>
-              <li>Description</li>
+              <li>Fullstack Developer</li>
+              <li>ig : npw.k</li>
             </ul>
           </div>
           <!--Card Footer-->
@@ -101,18 +101,18 @@
       <div class="flex flex-col w-1/3 p-3">
         <div class="rounded-lg shadow-xl bg-white p-10">
           <img
-            src="../assets/zen.jpg"
+            src="../assets/Phukao_crop.png"
             alt=""
             class="rounded-full p-4 h-40 mx-auto"
           />
           <!--Card Header-->
           <header class="text-2xl font-extrabold py-4 px-4 text-center">
-            Name Surname
+            Phattaraphat Chaiamornvate
           </header>
           <div>
             <ul class="text-gray-500 text-center font-semibold">
-              <li>Backend Developer</li>
-              <li>Description</li>
+              <li>Frontend Developer</li>
+              <li>ig : phukao_gk</li>
             </ul>
           </div>
           <!--Card Footer-->
@@ -138,18 +138,18 @@
       <div class="flex flex-col w-1/3 p-3">
         <div class="rounded-lg shadow-xl bg-white p-10">
           <img
-            src="../assets/zen.jpg"
+            src="../assets/tan.jpg"
             alt=""
             class="rounded-full p-4 h-40 mx-auto"
           />
           <!--Card Header-->
           <header class="text-2xl font-extrabold py-4 px-4 text-center">
-            Name Surname
+            Tan Chaiwongriaroon
           </header>
           <div>
             <ul class="text-gray-500 text-center font-semibold">
               <li>Backend Developer</li>
-              <li>Description</li>
+              <li>ig : _tantch</li>
             </ul>
           </div>
           <!--Card Footer-->
@@ -175,18 +175,18 @@
       <div class="flex flex-col w-1/3 p-3">
         <div class="rounded-lg shadow-xl bg-white p-10">
           <img
-            src="../assets/zen.jpg"
+            src="../assets/dg.jpg"
             alt=""
             class="rounded-full p-4 h-40 mx-auto"
           />
           <!--Card Header-->
           <header class="text-2xl font-extrabold py-4 px-4 text-center">
-            Name Surname
+            Tanapol Kampoh
           </header>
           <div>
             <ul class="text-gray-500 text-center font-semibold">
-              <li>Backend Developer</li>
-              <li>Description</li>
+              <li>Document / Tester</li>
+              <li>ig : kodhod</li>
             </ul>
           </div>
           <!--Card Footer-->
@@ -212,18 +212,18 @@
       <div class="flex flex-col w-1/3 p-3">
         <div class="rounded-lg shadow-xl bg-white p-10">
           <img
-            src="../assets/zen.jpg"
+            src="../assets/nat.jpg"
             alt=""
             class="rounded-full p-4 h-40 mx-auto"
           />
           <!--Card Header-->
           <header class="text-2xl font-extrabold py-4 px-4 text-center">
-            Name Surname
+            Nuttawat Janwisit
           </header>
           <div>
             <ul class="text-gray-500 text-center font-semibold">
-              <li>Backend Developer</li>
-              <li>Description</li>
+              <li>Frontend Developer</li>
+              <li>ig : saturn_oo1</li>
             </ul>
           </div>
           <!--Card Footer-->
