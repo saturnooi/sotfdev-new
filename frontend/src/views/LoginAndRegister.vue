@@ -12,7 +12,7 @@
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" v-model="loginForm.password" required />
           </div>
-         <button type="button" class="btn solid" v-on:click="onSubmit">
+         <button type="submit" class="btn solid" v-on:click="onSubmit">
             Login
           </button>
         </form>
@@ -503,6 +503,10 @@ export default {
           password: password1,
         }).then(function (response) {
           console.log(response);
+          if (response.data.status === 'success') {
+            alert('success', 'Logged in successfully!');
+            location.assign('/Home');
+          }
         });
        
     },

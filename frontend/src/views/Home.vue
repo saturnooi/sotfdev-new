@@ -343,9 +343,11 @@
             "
           >
             <img
-              class="w-1/2 h-full object-cover rounded-l-sm"
-              src="../assets/img/Usernull.png"
-              alt="Room Image"
+              class="w-45 h-45 object-cover rounded-full"
+              :src="
+                require('../../../backend/main/public/img/users/' +
+                  item.user.photo)
+              "
             />
             <div class="w-full flex flex-col">
               <div class="p-4 pb-0 flex-1">
@@ -369,7 +371,7 @@
                   <p>{{ item.description }}</p>
                 </div>
               </div>
-              <a href={{item.user.id}}>
+              <a :href="item.id">
                 <div
                   class="
                     bg-grey-lighter
@@ -632,7 +634,12 @@ export default {
   border-radius: 10px;
   box-shadow: 0 3px 10px rgb(0 0 255/ 0.2);
 }
-
+.img {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
 .pic3 {
   width: 400px;
   height: 200px;
