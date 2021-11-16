@@ -1,6 +1,6 @@
 
 <template>
-  <div class="bg-gray-100 container">
+  <div class="container" v-bind:class="{ 'sign-up-mode': isstatlogin}" >
     <div class="forms-container">
       <div class="signin-signup">
         <form action="/home" class="sign-in-form">
@@ -33,7 +33,7 @@
             <input type="password" placeholder="Password" />
           </div>
           <input type="submit" class="btn" value="Sign up" />
-         
+        
         </form>
       </div>
     </div>
@@ -47,7 +47,7 @@
             ex ratione. Aliquid!
           </p>
           <button
-            v-on:click="Register_mode()"
+            v-on:click="isstatlogin = !isstatlogin"
             class="btn transparent"
             id="sign-up-btn"
           >
@@ -64,7 +64,7 @@
             laboriosam ad deleniti.
           </p>
           <button
-            v-on:click="Login_mode()"
+            v-on:click="isstatlogin = !isstatlogin"
             class="btn transparent"
             id="sign-in-btn"
           >
@@ -75,47 +75,8 @@
       </div>
     </div>
   </div>
+
 </template>
-
-<script>
-import axios from "axios";
-export default {
-  data() {
-    return {
-      isShowPassword: false,
-      loginForm: {
-        username: "",
-        password: "",
-      },
-    };
-  },
-  methods: {
-
-    onSubmit: function () {
-      const username1 = this.loginForm.username;
-      const password1 = this.loginForm.password;
-      axios
-        .post(`http://127.0.0.1:3000/user/login`, {
-          email: username1,
-          password: password1,
-        }).then(function (response) {
-          console.log(response);
-        });
-       
-    },
-    mounted() {
-      const container = document.querySelector(".container");
-      this.Register_mode = function () {
-        container.classList.add("sign-up-mode");
-      };
-      this.Login_mode = function () {
-        container.classList.remove("sign-up-mode");
-      };
-    },
-  },
-};
-</script>
-
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
@@ -521,4 +482,36 @@ form.sign-in-form {
 
 
 
+
+
+<script>
+import axios from "axios";
+export default {
+  data() {
+    return {
+      isstatlogin: false,
+      isShowPassword: false,
+      loginForm: {
+        username: "",
+        password: "",
+      },
+    };
+  },
+  methods: {
+
+    onSubmit: function () {
+      const username1 = this.loginForm.username;
+      const password1 = this.loginForm.password;
+      axios
+        .post(`http://127.0.0.1:3000/user/login`, {
+          email: username1,
+          password: password1,
+        }).then(function (response) {
+          console.log(response);
+        });
+       
+    },
+  },
+};
+</script>
 
