@@ -13,9 +13,9 @@
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" v-model="loginForm.password" />
           </div>
-           <h1>{{loginForm.username}} </h1>
-           <h1>{{loginForm.password}}</h1>
-          <button type="submit"  class="btn solid" @submit.prevent="handleSubmit(onSubmit)"/>
+         <button type="button" class="btn solid" v-on:click="onSubmit">
+            Login
+          </button>
         </form>
 
         <form action="#" class="sign-up-form">
@@ -78,7 +78,7 @@
 </template>
 
 <script>
-
+import axios from "axios";
 export default {
   data() {
     return {
@@ -91,11 +91,18 @@ export default {
   },
   methods: {
 
-    // onSubmit() {
-    //   const username1 = this.loginForm.username
-    //   const password1 = this.loginForm.password
-    //   console.log(axios.post(`127.0.0.1:3000/auth/login`, { username1, password1 })) 
-    // },
+    onSubmit: function () {
+      const username1 = this.loginForm.username;
+      const password1 = this.loginForm.password;
+      axios
+        .post(`http://127.0.0.1:3000/user/login`, {
+          email: username1,
+          password: password1,
+        }).then(function (response) {
+          console.log(response);
+        });
+       
+    },
     mounted() {
       const container = document.querySelector(".container");
       this.Register_mode = function () {
