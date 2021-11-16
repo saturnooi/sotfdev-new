@@ -19,6 +19,15 @@ const visualAudioSchema = new Schema(
             type: Number,
             default: 0,
         },
+        review: [
+            {
+                userReview: {
+                    type: mongoose.Schema.ObjectId,
+                    ref: 'User',
+                },
+                review: String,
+            },
+        ],
         description: String,
         history: [String],
         price: {
@@ -45,7 +54,8 @@ visualAudioSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'user',
         select: ['firstname', 'lastname', 'photo'],
-    }).populate({
+    })
+        .populate({
             path: 'review.userReview',
             select: ['firstname', 'lastname', 'photo'],
         })

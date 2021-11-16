@@ -19,6 +19,15 @@ const handymanSchema = new Schema(
             type: Number,
             default: 0,
         },
+        review: [
+            {
+                userReview: {
+                    type: mongoose.Schema.ObjectId,
+                    ref: 'User',
+                },
+                review: String,
+            },
+        ],
         description: String,
         history: [String],
         price: {
@@ -45,14 +54,15 @@ handymanSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'user',
         select: ['firstname', 'lastname', 'photo'],
-    }).populate({
-        path: 'review.userReview',
-        select: ['firstname', 'lastname', 'photo'],
     })
-    .populate({
-        path: 'history.contract',
-        select: ['description', 'price'],
-    });
+        .populate({
+            path: 'review.userReview',
+            select: ['firstname', 'lastname', 'photo'],
+        })
+        .populate({
+            path: 'history.contract',
+            select: ['description', 'price'],
+        });
 
     next();
 });

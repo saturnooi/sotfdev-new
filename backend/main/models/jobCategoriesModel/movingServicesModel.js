@@ -19,6 +19,15 @@ const movingServicesSchema = new Schema(
             type: Number,
             default: 0,
         },
+        review: [
+            {
+                userReview: {
+                    type: mongoose.Schema.ObjectId,
+                    ref: 'User',
+                },
+                review: String,
+            },
+        ],
         description: String,
         history: [String],
         price: {
