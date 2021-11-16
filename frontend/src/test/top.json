@@ -1,0 +1,113 @@
+{
+    "title": "Index",
+    "categories": [
+        "Cleaning",
+        "Consultant",
+        "Handyman",
+        "Mounting",
+        "MovingServices",
+        "PersonalAssistant",
+        "VisualAudio",
+        "Yardwork"
+    ],
+    "taskers": [{
+            "_id": "618e90684157ee312897f21d",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "House cleaners are guaranteed for 8 years in a row.",
+            "price": 20,
+            "locations": "Bangkok",
+            "subCategories": [
+                "House Cleaning Services",
+                "Disinfecting Services"
+            ],
+            "review": [],
+            "history": [],
+            "id": "618e90684157ee312897f21d"
+        },
+        {
+            "_id": "617baf9e4c37ed7b0b8d64a0",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "Guaranteed with over 20 years of marketing experience.",
+            "price": 20,
+            "locations": "Bangkok",
+            "subCategories": [
+                "Marketing"
+            ],
+            "id": "617baf9e4c37ed7b0b8d64a0"
+        },
+        {
+            "_id": "617bafc54c37ed7b0b8d64a5",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "If the house has a problem I will help you.",
+            "price": 500,
+            "locations": "Bangkok",
+            "subCategories": [
+                "Home Repairs"
+            ],
+            "id": "617bafc54c37ed7b0b8d64a5"
+        },
+        {
+            "_id": "617bafe44c37ed7b0b8d64ac",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "If you are crazy, you can easily own a power plant. by converting energy from sunlight to electricity Providing installation services by experts, solar rooftop systems directly, over 250+ projects that trust us, complete services, complete in one place, there is no problem. I will help you.",
+            "price": 2000,
+            "locations": "Bangkok",
+            "subCategories": [
+                "Mounting solar"
+            ],
+            "id": "617bafe44c37ed7b0b8d64ac"
+        },
+        {
+            "_id": "617bb1014c37ed7b0b8d64b5",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "Moving Services are guaranteed for 22 years in a row.",
+            "price": 1500,
+            "locations": "Bangkok",
+            "subCategories": [
+                "Furniture Movers"
+            ],
+            "id": "617bb1014c37ed7b0b8d64b5"
+        },
+        {
+            "_id": "617bb1274c37ed7b0b8d64bc",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "from experience This works more than 20 times.",
+            "price": 350,
+            "locations": "Bangkok",
+            "subCategories": [
+                "Buy things from the supermarket and deliver them."
+            ],
+            "id": "617bb1274c37ed7b0b8d64bc"
+        },
+        {
+            "_id": "617bb1494c37ed7b0b8d64c1",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "Professional editors used to edit world-class work.",
+            "price": 1000,
+            "locations": "Bangkok",
+            "subCategories": [
+                "'Singer-band', 'Podcast'"
+            ],
+            "id": "617bb1494c37ed7b0b8d64c1"
+        },
+        {
+            "_id": "617bb1784c37ed7b0b8d64c8",
+            "user": null,
+            "ratingsAverage": 4.5,
+            "description": "If interested in products, contact to inquire at the phone number. 092-9202816",
+            "price": 250,
+            "locations": "Bangkok",
+            "subCategories": [
+                "Tree Trimming Service"
+            ],
+            "id": "617bb1784c37ed7b0b8d64c8"
+        }
+    ]
+}

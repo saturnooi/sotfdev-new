@@ -1,0 +1,126 @@
+{
+    "status": "success",
+    "result": 2,
+    "data": {
+        "subCategories": [
+            "House Cleaning Services",
+            "Disinfecting Services",
+            "Laundry Help",
+            "Air Conditioning Cleaning Service"
+        ],
+        "users": [{
+                "_id": "618e90684157ee312897f21d",
+                "user": null,
+                "ratingsAverage": 4.5,
+                "description": "House cleaners are guaranteed for 8 years in a row.",
+                "locations": "Bangkok",
+                "subCategories": [
+                    "House Cleaning Services",
+                    "Disinfecting Services"
+                ],
+                "review": [],
+                "history": [],
+                "id": "618e90684157ee312897f21d"
+            },
+            {
+                "_id": "617baee3b15787e423d8a67e",
+                "user": null,
+                "ratingsAverage": 4.4,
+                "description": "House cleaners are guaranteed for 8 years in a row.",
+                "history": [],
+                "locations": "Bangkok",
+                "subCategories": [
+                    "House Cleaning Services",
+                    "Disinfecting Services"
+                ],
+                "review": [{
+                        "userReview": null
+                    },
+                    {
+                        "userReview": null
+                    },
+                    {
+                        "userReview": null
+                    }
+                ],
+                "id": "617baee3b15787e423d8a67e"
+
+            },
+            {
+                "_id": "618e90684157ee312897f21d",
+                "user": null,
+                "ratingsAverage": 4.5,
+                "description": "House cleaners are guaranteed for 8 years in a row.",
+                "locations": "Bangkok",
+                "subCategories": [
+                    "House Cleaning Services",
+                    "Disinfecting Services"
+                ],
+                "review": [],
+                "history": [],
+                "id": "618e90684157ee312897f21d"
+            },
+            {
+                "_id": "617baee3b15787e423d8a67e",
+                "user": null,
+                "ratingsAverage": 4.4,
+                "description": "House cleaners are guaranteed for 8 years in a row.",
+                "history": [],
+                "locations": "Bangkok",
+                "subCategories": [
+                    "House Cleaning Services",
+                    "Disinfecting Services"
+                ],
+                "review": [{
+                        "userReview": null
+                    },
+                    {
+                        "userReview": null
+                    },
+                    {
+                        "userReview": null
+                    }
+                ],
+                "id": "617baee3b15787e423d8a67e"
+
+            }, {
+                "_id": "618e90684157ee312897f21d",
+                "user": null,
+                "ratingsAverage": 4.5,
+                "description": "House cleaners are guaranteed for 8 years in a row.",
+                "locations": "Bangkok",
+                "subCategories": [
+                    "House Cleaning Services",
+                    "Disinfecting Services"
+                ],
+                "review": [],
+                "history": [],
+                "id": "618e90684157ee312897f21d"
+            },
+            {
+                "_id": "617baee3b15787e423d8a67e",
+                "user": null,
+                "ratingsAverage": 4.4,
+                "description": "House cleaners are guaranteed for 8 years in a row.",
+                "history": [],
+                "locations": "Bangkok",
+                "subCategories": [
+                    "House Cleaning Services",
+                    "Disinfecting Services"
+                ],
+                "review": [{
+                        "userReview": null
+                    },
+                    {
+                        "userReview": null
+                    },
+                    {
+                        "userReview": null
+                    }
+                ],
+                "id": "617baee3b15787e423d8a67e"
+
+            }
+        ]
+    }
+}
