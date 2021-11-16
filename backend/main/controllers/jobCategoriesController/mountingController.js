@@ -34,7 +34,7 @@ exports.getAllMountingUser = catchAsync(async (req, res, next) => {
 
 exports.getMountingUser = catchAsync(async (req, res, next) => {
 
-    const user = await Mounting.find({ id: req.params.id });
+    const user = await Mounting.findById(req.params.id);
 
     if (!user) {
         return next(new AppError('No user found with thai ID', 404))

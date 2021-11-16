@@ -22,7 +22,7 @@ const Yardwork = require('../models/jobCategoriesModel/yardworkModel');
 exports.getindex = catchAsync(async (req, res, next) => {
     req.query.limit = '1';
     req.query.sort = '-ratingsAverage';
-    req.query.fields = 'user,firstname,lastname,ratingsAverage,description,locations,subCategories,price,photo';
+    req.query.fields = 'id,firstname,lastname,ratingsAverage,description,locations,subCategories,price,photo';
 
     const cleaning = new APIFeatures(Cleaning.find(), req.query).filter().sort().limitFields().paginate();
     const consultant = new APIFeatures(Consultant.find(), req.query).filter().sort().limitFields().paginate();

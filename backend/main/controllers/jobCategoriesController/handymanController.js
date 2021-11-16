@@ -33,7 +33,7 @@ exports.getAllHandymanUser = catchAsync(async (req, res, next) => {
 
 exports.getHandymanUser = catchAsync(async (req, res, next) => {
 
-    const user = await Handyman.find({ id: req.params.id });
+    const user = await Handyman.findById(req.params.id);
 
     if (!user) {
         return next(new AppError('No user found with thai ID', 404))

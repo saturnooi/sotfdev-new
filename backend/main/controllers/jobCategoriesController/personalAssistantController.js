@@ -32,7 +32,7 @@ exports.getAllPersonalAssistantUser = catchAsync(async (req, res, next) => {
 
 exports.getPersonalAssistantUser = catchAsync(async (req, res, next) => {
 
-    const user = await PersonalAssistant.find({ id: req.params.id });
+    const user = await PersonalAssistant.findById(req.params.id);
 
     if (!user) {
         return next(new AppError('No user found with thai ID', 404))

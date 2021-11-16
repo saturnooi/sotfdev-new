@@ -43,8 +43,15 @@ const consultantSchema = new Schema({
 consultantSchema.pre(/^find/, function (next) {
     this.populate({
         path: 'user',
-        select: ['firstname', 'lastname']
+        select: ['firstname', 'lastname','photo']
+    }).populate({
+        path: 'review.userReview',
+        select: ['firstname', 'lastname', 'photo'],
     })
+    .populate({
+        path: 'history.contract',
+        select: ['description', 'price'],
+    });
 
     next();
 });
