@@ -28,7 +28,7 @@
             <a href="/home" class="active pb-1">Home</a>
           </li>
           <li><a href="/recruit" class="">Recruit</a></li>
-          <li><a href="#" class="">Apply</a></li>
+          <li><a href="/apply" class="">Apply</a></li>
           <li><a href="/chat" class="">Chat</a></li>
           <li><a href="/about" class="">About</a></li>
           <li>
