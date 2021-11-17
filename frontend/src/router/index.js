@@ -10,6 +10,7 @@ import Resetpassword from '../views/resetpassword.vue'
 import Paid from '../views/Paid.vue'
 import Taskeruser from '../views/taskeruser.vue'
 import Apply from '../views/apply.vue'
+import Chooseapply from '../views/chooseapply.vue'
 const routes = [{
         path: '/Home',
         name: 'Home',
@@ -74,6 +75,12 @@ const routes = [{
         path: '/apply',
         name: 'apply',
         component: Apply
+
+    },
+    {
+        path: '/chooseapply',
+        name: 'chooseapply',
+        component: Chooseapply
 
     }
 ]
