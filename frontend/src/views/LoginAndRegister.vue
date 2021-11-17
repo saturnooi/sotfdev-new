@@ -21,7 +21,11 @@
           <h2 class="title">Sign up</h2>
           <div class="input-field">
             <i class="fas fa-user"></i>
-            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Firstname" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Lastname" />
           </div>
           <div class="input-field">
             <i class="fas fa-envelope"></i>
@@ -31,6 +35,23 @@
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" />
           </div>
+          
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirm Password" />
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-phone"></i>
+            <input type="tel" placeholder="Telephone" />
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-calendar-day"></i>
+            <input type="date" placeholder="Birthday" />
+          </div>
+          
+
           <input type="submit" class="btn" value="Sign up" />
         
         </form>
